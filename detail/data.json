@@ -1,0 +1,244 @@
+[
+	{
+		"label": "Tab1",
+		"subtabs": [
+			{
+				"label": "subtab1",
+				"filters": [
+					{
+						"type": "text",
+						"label": "姓名",
+						"name": "username",
+						"value": ""
+					},
+					{
+						"type": "radio",
+						"label": "性别",
+						"name": "sex",
+						"value": "1",
+						"options": [
+							{
+								"label": "女",
+								"value": "0"
+							},
+							{
+								"label": "男",
+								"value": "1"
+							}
+						]
+					}
+				],
+				"grid": {
+					"url": "gridData.json",
+					"fields": [
+						{
+							"text": "姓名",
+							"name": "username"
+						},
+						{
+							"text": "性别",
+							"name": "sex"
+						},
+						{
+							"text": "年龄",
+							"name": "age"
+						}
+					]
+				}
+			},
+			{
+				"label": "subtab2",
+				"filters": [
+					{
+						"type": "text",
+						"label": "年龄",
+						"name": "age",
+						"value": ""
+					},
+					{
+						"type": "radio",
+						"label": "性别",
+						"name": "sex",
+						"value": "1",
+						"options": [
+							{
+								"label": "女",
+								"value": "0"
+							},
+							{
+								"label": "男",
+								"value": "1"
+							}
+						]
+					}
+				],
+				"grid": {
+					"url": "gridData.json",
+					"fields": [
+						{
+							"text": "姓名",
+							"name": "username"
+						},
+						{
+							"text": "性别",
+							"name": "sex"
+						},
+						{
+							"text": "年龄",
+							"name": "age"
+						},
+						{
+							"text": "是否有对象",
+							"name": "isSingle"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"label": "Tab2",
+		"subtabs": [
+			{
+				"label": "subtab1",
+				"filters": [
+					{
+						"type": "text",
+						"label": "姓名",
+						"name": "username",
+						"value": ""
+					},
+					{
+						"type": "radio",
+						"label": "性别",
+						"name": "sex",
+						"value": "1",
+						"options": [
+							{
+								"label": "女",
+								"value": "0"
+							},
+							{
+								"label": "男",
+								"value": "1"
+							}
+						]
+					}
+				],
+				"grid": {
+					"url": "gridData1.json",
+					"fields": [
+						{
+							"text": "姓名",
+							"name": "username"
+						},
+						{
+							"text": "性别",
+							"name": "sex"
+						},
+						{
+							"text": "年龄",
+							"name": "age"
+						}
+					]
+				}
+			},
+			{
+				"label": "subtab2",
+				"filters": [
+					{
+						"type": "text",
+						"label": "年龄",
+						"name": "age",
+						"value": ""
+					},
+					{
+						"type": "radio",
+						"label": "性别",
+						"name": "sex",
+						"value": "1",
+						"options": [
+							{
+								"label": "女",
+								"value": "0"
+							},
+							{
+								"label": "男",
+								"value": "1"
+							}
+						]
+					}
+				],
+				"grid": {
+					"url": "gridData2.json",
+					"fields": [
+						{
+							"text": "姓名",
+							"name": "username"
+						},
+						{
+							"text": "性别",
+							"name": "sex"
+						},
+						{
+							"text": "年龄",
+							"name": "age"
+						},
+						{
+							"text": "是否有对象",
+							"name": "isSingle"
+						}
+					]
+				}
+			},
+			{
+				"label": "subtab3",
+				"filters": [
+					{
+						"type": "text",
+						"label": "年龄",
+						"name": "age",
+						"value": ""
+					},
+					{
+						"type": "radio",
+						"label": "性别",
+						"name": "sex",
+						"value": "1",
+						"options": [
+							{
+								"label": "女",
+								"value": "0"
+							},
+							{
+								"label": "男",
+								"value": "1"
+							}
+						]
+					}
+				],
+				"grid": {
+					"url": "gridData3.json",
+					"fields": [
+						{
+							"text": "姓名",
+							"name": "username"
+						},
+						{
+							"text": "性别",
+							"name": "sex"
+						},
+						{
+							"text": "年龄",
+							"name": "age"
+						},
+						{
+							"text": "是否有宝宝",
+							"name": "hasBaby"
+						}
+					]
+				}
+			}
+		]
+	}
+]

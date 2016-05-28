@@ -2,9 +2,11 @@ import React from 'react';
 
 require('./App.css');
 
-export default () => <h1>Hello World</h1>;
+import Table from "./Table/App.jsx";
+import Tab from "./Tab/App.jsx";
+import SubTab from "./SubTab/App.jsx";
+import Filter from "./Filter/App.jsx";
 
-/*
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,8 +14,12 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <h1>Hello World</h1>
+      <div>
+      	<Tab />
+      	<SubTab />
+      	<Filter />
+      	<Table />
+      </div>
     );
   }
 }
-*/
